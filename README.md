@@ -17,3 +17,35 @@ In this repository we will be going through the SQL interview questions featured
 
 #### **OUTPUT**
 ![image](https://github.com/Highashikata/TechTFQ-30DaysSQLChallenge/assets/96960411/806f2d96-c404-43aa-98b3-389959246582)
+
+
+#### **DDL** 
+``` --- Creating the table
+CREATE TABLE Brands (
+    BRAND1 VARCHAR(255),
+    BRAND2 VARCHAR(255),
+    YEAR INTEGER,
+    CUSTOM1 INTEGER,
+    CUSTOM2 INTEGER,
+    CUSTOM3 INTEGER,
+    CUSTOM4 INTEGER
+);
+```
+
+#### **DML**
+INSERT INTO Brands (BRAND1, BRAND2, YEAR, CUSTOM1, CUSTOM2, CUSTOM3, CUSTOM4) 
+VALUES 
+    ('Apple', 'Samsung', 2020, 1, 2, 1, 2),
+    ('Samsung', 'Apple', 2020, 1, 2, 1, 2),
+    ('Apple', 'Samsung', 2021, 1, 2, 5, 3),
+    ('Samsung', 'Apple', 2021, 5, 3, 1, 2),
+    ('Google', Null, 2020, 5, 9, NULL, Null),
+    ('Oneplus', 'Microsoft', 2020, 5, 9, 6, 3);
+
+
+
+```
+
+```
+
+#### **DQL**
