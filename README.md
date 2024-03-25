@@ -4,7 +4,7 @@ going through the challenge of SQL interview questions featured in the TechTFQ c
 
 In this repository we will be going through the SQL interview questions featured in the following YouTube Playlist [SQL Interview Questions](https://www.youtube.com/watch?v=FRzbOb3jdLg&list=PLavw5C92dz9Hxz0YhttDniNgKejQlPoAn).
 
-#### Day 1: The problem statement:
+# **Day 1: The problem statement:**
 
 - For pairs of brands in the same year (i.e for the year 2020 (Apple, Samsung) and (Samsung, Apple) row1 & row5 
 	-if custom1=custom3 and custom2= custom4: then keep only one pair.
